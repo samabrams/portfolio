@@ -1,0 +1,51 @@
+* {
+    font-family: 'Poiret One';
+}
+header, footer {
+    background-color: rgba(0, 204, 102, 0.6);
+    color: rgba(255, 255, 255, 0.8);
+    height: 10vh;
+}
+header {
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+footer {
+    position: absolute!important;
+    top: 90vh;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.3);
+}
+.mainContent {
+    position: absolute!important;
+    top: 10vh;
+    height: 80vh;
+    background-color: rgba(0, 204, 102, .9);
+    z-index: -1;
+}
+.nav li, footer li {
+    list-style-type: none;
+    display: inline-block;
+}
+.nav {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translateY(-50%);
+}
+.nav li{
+    margin: 0 5%;
+    text-transform: uppercase;
+}
+footer li {
+    margin: 0 3.5%;
+}
+.contactList {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+}
+.contactList li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
